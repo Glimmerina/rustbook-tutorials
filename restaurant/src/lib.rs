@@ -31,26 +31,31 @@ mod front_of_house {
     }
 }
 
-pub fn eat_at_restaurant() {
-    // Absolute path
-    crate::front_of_house::hosting::add_to_waitlist();
+pub use crate::front_of_house::hosting;
 
-    // Relative path
-    front_of_house::hosting::add_to_waitlist();
+mod customer {
+    use crate::front_of_house::hosting;
+    pub fn eat_at_restaurant() {
+        // Absolute path
+        crate::front_of_house::hosting::add_to_waitlist();
 
-    //Customer begins by ordering Rye toast then changes their mind.
-    let mut meal = back_of_house::Breakfast::summer("Rye");
-    //Changed the tutorial bread from Rye to Hovis. I'm a Hovis girl
-    meal.toast = String::from("Hovis");
-    println!("I'd like {} toast please", meal.toast);
+        // Relative path
+        hosting::add_to_waitlist();
 
-    let order1 = back_of_house::Appetizer::Soup;
-    let order2 = back_of_house::Appetizer::Salad;
-}   
+        //Customer begins by ordering Rye toast then changes their mind.
+        let mut meal = back_of_house::Breakfast::summer("Rye");
+        //Changed the tutorial bread from Rye to Hovis. I'm a Hovis girl
+        meal.toast = String::from("Hovis");
+        println!("I'd like {} toast please", meal.toast);
+
+        let order1 = back_of_house::Appetizer::Soup;
+        let order2 = back_of_house::Appetizer::Salad;
+    }   
+}
 
 fn deliver_order() {}
 
-mod back_of_house {
+pub mod back_of_house {
         pub struct Breakfast {
         pub toast: String,
         seasonal_fruit: String, //Not public, the customers don't get to choose what's in season
@@ -75,4 +80,16 @@ mod back_of_house {
     }
 
     fn cook_order() {}
+}
+
+use std::fmt::Result;
+use std::io::Result as IoResult;
+use std::collections::*;
+
+fn function1() -> fmt::Result {
+    // The rustbook specifies this code and it returns errors, amazing.
+}
+
+fn function2() -> io::Result<()> {
+    // As above.        
 }

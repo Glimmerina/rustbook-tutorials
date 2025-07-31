@@ -1,0 +1,10 @@
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/restaurant/target/debug/deps/gear_dlmalloc-6e1088b2a5bb7a97.d: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/macos.rs
+
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/restaurant/target/debug/deps/libgear_dlmalloc-6e1088b2a5bb7a97.rmeta: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/macos.rs
+
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/lib.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/common.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlmalloc.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/dlverbose.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/global.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gear-dlmalloc-0.2.0/src/macos.rs:

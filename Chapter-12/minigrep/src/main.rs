@@ -17,12 +17,14 @@ use std::process;
 use std::error::Error;
 
 // Uses the search function from the minigrep module.
-use minigrep::search;
+use minigrep::{search, search_case_insensitive};
 
 // Defines a struct named `Config` to store the contents of the search and file path.
-struct Config {
-    query: String,
-    file_path: String,
+// As of 12.5, now also stores whether to ignore case sensitivity.
+pub struct Config {
+    pub query: String,
+    pub file_path: String,
+    pub ignore_case: bool,
 }
 fn main() {
     // So it creates a vector of strings from the command line arguments.
@@ -51,11 +53,16 @@ fn main() {
 }
 
 // Reads the contents of the file specified by `file_path`.
-// If the file cannot be read, it will panic with the message provided.
 fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.file_path)?;
 
-    for line in search(&config.query, &contents) {
+    let results = if config.ignore_case {
+        search_case_insensitive(&config.query, &contents)
+    } else {
+        search(&config.query, &contents)
+    };
+
+    for line in results {
         println!("{line}");
     }
 
@@ -71,6 +78,12 @@ impl Config {
         let query = args[1].clone();
         let file_path = args[2].clone();
 
-        Ok(Config { query, file_path })
+        let ignore_case = env::var("IGNORE_CASE").is_ok();
+
+        Ok(Config {
+            query,
+            file_path,
+            ignore_case,
+        })
     }
 }

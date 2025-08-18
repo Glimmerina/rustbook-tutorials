@@ -34,7 +34,7 @@ fn main() {
 
     // Calls a struct to store the contents and file path.
     let config = Config::build(&args).unwrap_or_else(|err| {
-        println!("Problem parsing arguments: {err}");
+        eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
     });
 
@@ -45,7 +45,7 @@ fn main() {
     // If the `run` function returns an error, it will print the error message and exit the program with a non-zero status code.
     // If it succeeds, it will continue running the program.
     if let Err(e) = run(config) {
-        println!("Application error: {e}");
+        eprintln!("Application error: {e}");
         process::exit(1);
     }
 

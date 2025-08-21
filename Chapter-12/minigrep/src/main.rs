@@ -33,7 +33,8 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     // Calls a struct to store the contents and file path.
-    let config = Config::build(&args).unwrap_or_else(|err| {
+    // 13.3 onward: now calls an iterator to build the `Config` struct.
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
     });
@@ -69,17 +70,38 @@ fn run(config: Config) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+// The new version of this from Chapter 13.3.
+// The chapter said this should be in src/lib.rs, but we built it here and it errors if we move it.
+
+// The new version of the `Config` struct.
+// It now has a `build` method that takes an iterator of strings as input.
 impl Config {
-    fn build(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("not enough arguments");
-        }
+    pub fn build(
+        // Takes an iterator of strings as input
+        // `args` is an iterator that yields String items.
+        mut args: impl Iterator<Item = String>,
+    ) -> Result<Config, &'static str> {
+        args.next();
 
-        let query = args[1].clone();
-        let file_path = args[2].clone();
+        // Extracts the query string and file path from the iterator.
+        // If either is missing, it returns an error.
+        let query = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a query string"),
+        };
 
+        // Extracts the file path from the iterator.
+        // If the file path is missing, it returns an error.
+        let file_path = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a file path"),
+        };
+
+        // Checks if the `IGNORE_CASE` environment variable is set.
+        // If it is set, it will ignore case sensitivity in the search.
         let ignore_case = env::var("IGNORE_CASE").is_ok();
 
+        // Returns a `Config` instance with the query, file path, and ignore_case flag.
         Ok(Config {
             query,
             file_path,

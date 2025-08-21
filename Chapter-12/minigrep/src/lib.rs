@@ -1,19 +1,12 @@
 // Search function for a text search application.
 
 // Searches a query string in the contents of a file.
+// The iterator has already built the `Config` struct. This just parses it.
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    // Mutable vector to store the results.
-    let mut results = Vec::new();
-
-    // Iterates through each line in the contents.
-    // If the line contains the query, it adds the line to the results.
-    for line in contents.lines() {
-        if line.contains(query) {
-            results.push(line);
-        }
-    }
-
-    results
+    contents
+        .lines()
+        .filter(|line| line.contains(query))
+        .collect()
 }
 
 pub fn search_case_insensitive<'a>(

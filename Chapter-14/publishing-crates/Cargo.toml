@@ -1,0 +1,8 @@
+[package]
+name = "publishing-crates"
+version = "0.1.0"
+edition = "2025"
+description = "Example metadata, this will not be published to crates.io"
+license = "MIT OR Apache-2.0"
+
+[dependencies]

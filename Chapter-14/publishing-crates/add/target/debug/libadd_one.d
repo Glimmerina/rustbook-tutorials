@@ -1,0 +1,1 @@
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/Chapter-14/publishing-crates/add/target/debug/libadd_one.rlib: /Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/Chapter-14/publishing-crates/add/add_one/src/lib.rs

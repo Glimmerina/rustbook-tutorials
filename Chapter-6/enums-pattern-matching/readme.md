@@ -1,0 +1,1 @@
+This is Chapter 6 from the Rust Book. I'm figuring out how to make new scripts so each chapter is its own script now! I will hopefully apply this going forward into future chapters to avoid making new repositories all the time! :)

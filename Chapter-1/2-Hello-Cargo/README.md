@@ -1,0 +1,1 @@
+This is a simple project only designed to practice cargo commands and git pushes. 

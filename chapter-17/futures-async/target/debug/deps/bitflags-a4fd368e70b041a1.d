@@ -1,0 +1,11 @@
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/chapter-17/futures-async/target/debug/deps/bitflags-a4fd368e70b041a1.d: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs
+
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/chapter-17/futures-async/target/debug/deps/libbitflags-a4fd368e70b041a1.rmeta: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs
+
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/lib.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/iter.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/parser.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/traits.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/public.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/internal.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.4/src/external.rs:

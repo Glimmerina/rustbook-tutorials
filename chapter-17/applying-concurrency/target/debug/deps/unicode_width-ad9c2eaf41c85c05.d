@@ -1,0 +1,6 @@
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/chapter-17/applying-concurrency/target/debug/deps/unicode_width-ad9c2eaf41c85c05.d: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/tables.rs
+
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/chapter-17/applying-concurrency/target/debug/deps/libunicode_width-ad9c2eaf41c85c05.rmeta: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/tables.rs
+
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/lib.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.1/src/tables.rs:

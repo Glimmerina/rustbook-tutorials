@@ -1,0 +1,11 @@
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/Chapter-2/number-game/target/debug/deps/rand_core-6e6fdef7651342d2.d: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/block.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/impls.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/le.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/os.rs
+
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/Chapter-2/number-game/target/debug/deps/librand_core-6e6fdef7651342d2.rlib: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/block.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/impls.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/le.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/os.rs
+
+/Users/jenniferc/Documents/Projects/dev/rustbook-tutorials/Chapter-2/number-game/target/debug/deps/librand_core-6e6fdef7651342d2.rmeta: /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/lib.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/block.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/impls.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/le.rs /Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/os.rs
+
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/lib.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/block.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/impls.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/le.rs:
+/Users/jenniferc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/os.rs:

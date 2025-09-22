@@ -5,3 +5,10 @@ If I make it to next Sunday and the streak is still going then it will be a mira
 But I still showed up. I still made a commit. I've still got the drive to keep it going, even if the fire isn't burning inside me today. 
 
 Wish me luck for the week ahead.
+
+
+Day 2:
+
+I am already feeling shattered. One day down, six more to go.
+
+Still showed up for the git commit though. I would rather be writing in Rust than dealing with the personal life stuff but alas, the crab will have to wait for now.

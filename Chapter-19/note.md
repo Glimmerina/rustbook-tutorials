@@ -12,3 +12,11 @@ Day 2:
 I am already feeling shattered. One day down, six more to go.
 
 Still showed up for the git commit though. I would rather be writing in Rust than dealing with the personal life stuff but alas, the crab will have to wait for now.
+
+Day 3:
+
+I have spent over 7 hours today on trains and buses, and my step count is easily in the 5 digit figures. My feet are killing me. I am very tired. 
+
+And if I had brought my macbook with me, I could have gotten many hours of Rust in. I am a fool. I'm grateful to have not had the extra carry weight, but I lament the time lost. I am sorry, Crab.
+
+(V)(;,,;)(V)

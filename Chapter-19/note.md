@@ -20,3 +20,9 @@ I have spent over 7 hours today on trains and buses, and my step count is easily
 And if I had brought my macbook with me, I could have gotten many hours of Rust in. I am a fool. I'm grateful to have not had the extra carry weight, but I lament the time lost. I am sorry, Crab.
 
 (V)(;,,;)(V)
+
+Day 4:
+
+Two very intense days followed by a full day of getting a research paper fully prepared, proofed and ready to send to a publisher. If it gets published then it will all be worth it but oh my gosh, I am in dire need of a day off. And I won't get one until Sunday. Oh no.
+
+I'm watching videos on Rust whenever possible to keep the crab fresh on my mind. I'm really eager to try making a full little game with Rust now. Nothing massive or complex, but I think it will be a good exercise to test what I've learned and begin independently applying skills with no tutorial content to back me up. We will see how it goes. But for now, more long days to endure. 

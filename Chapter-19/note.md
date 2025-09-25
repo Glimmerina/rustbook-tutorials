@@ -26,3 +26,9 @@ Day 4:
 Two very intense days followed by a full day of getting a research paper fully prepared, proofed and ready to send to a publisher. If it gets published then it will all be worth it but oh my gosh, I am in dire need of a day off. And I won't get one until Sunday. Oh no.
 
 I'm watching videos on Rust whenever possible to keep the crab fresh on my mind. I'm really eager to try making a full little game with Rust now. Nothing massive or complex, but I think it will be a good exercise to test what I've learned and begin independently applying skills with no tutorial content to back me up. We will see how it goes. But for now, more long days to endure. 
+
+Day 5:
+
+More of the same. I yearn to get back to Rust. I also yearn for sleep, I am so, so tired. I'm at that point of tired where I can't sleep and then i'm even more tired the next day. The doom spiral continues. But only for a few more days. Just two more days and then it's back to Rust. Back to the crab.
+
+I am making these commits because I don't want my streak to be ended. I worked so damned hard to keep showing daily progress. This is important to me. I'm not going to let an awful week ruin it.

@@ -40,3 +40,9 @@ I am now annoying my coworkers with "You should re-write this in Rust" jokes. I 
 I was watching a video earlier on memory leaks. I didn't really know what they were before, but they seem very frustrating for everyone involved. I'm now very grateful that Rust is so memory safe. I mean, I've already triggered a Stack Overflow in the Chapter 2 content, but I've yet to cause a Memory Leak so Rust is clearly trying to keep my code clean! 
 
 Still, just one more day and then I can get cuddled up with blankets, a pumpkin spice latte and my IDE. Cosy coding vibes!
+
+Day 7:
+
+The last day SURVIVED! A very early start, a day spent in constant motion and the soles of my feet are now very, very sore. I don't want to know the number of steps, or miles I've put into my boots this week. But I did it. I survived it. It's over.
+
+I am so, so tired. I nearly fell asleep on my sofa when I finally sat down today. But it's okay. Tonight I can sleep, and tomorrow i can code. Crab, I return myself unto thy clawed embrace (V)(;,,;)(V)

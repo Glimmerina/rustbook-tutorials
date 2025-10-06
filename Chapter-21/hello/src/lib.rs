@@ -9,7 +9,7 @@ use std::{
 // It also includes a sender to send jobs to the workers.
 pub struct ThreadPool {
     workers: Vec<Worker>,
-    sender: mpsc::Sender<Job>,
+    sender: Option<mpsc::Sender<Job>>,
 }
 
 // Creates a struct for Jobs.
@@ -24,17 +24,28 @@ struct Worker {
 // Implements the worker struct. 
 impl Worker {
     fn new(id: usize, receiver: Arc<Mutex<mpsc::Receiver<Job>>>) -> Worker {
-        // Spawns a new thread for each worker.
+        // Spawns a new thread for the worker.
         let thread = thread::spawn(move || {
-            // Each worker will wait for a job to be sent to it.
-            while let Ok(job) = receiver.lock().unwrap().recv() {
-                println!("Worker {id} got a job; executing.");
+            // The worker thread will loop forever, waiting for jobs to execute.
+            loop {
+                let message = receiver.lock().unwrap().recv();
 
-                job();
+                // When a job is received, execute it.
+                // If the channel is closed, break the loop and end the thread.
+                match message {
+                    Ok(job) => {
+                        println!("Worker {id} got a job; executing.");
+
+                        job();
+                    }
+                    Err(_) => {
+                        println!("Worker {id} disconnected; shutting down.");
+                        break;
+                    }
+                }
             }
         });
 
-        // Returns the worker with its ID and thread.
         Worker { id, thread }
     }
 }
@@ -61,19 +72,34 @@ impl ThreadPool {
             workers.push(Worker::new(id, Arc::clone(&receiver)));
         }
 
-        ThreadPool { workers, sender }
+        ThreadPool {
+            workers,
+            sender: Some(sender),
+        }
     }
 
     // Executes a job by sending it.
-    
+
     pub fn execute<F>(&self, f: F)
     where
         F: FnOnce() + Send + 'static,
     {
         let job = Box::new(f);
 
-        self.sender.send(job).unwrap();
+        self.sender.as_ref().unwrap().send(job).unwrap();
     }
 }
 
+// Implements the Drop trait for the ThreadPool struct to gracefully shut down the pool.
+impl Drop for ThreadPool {
+    fn drop(&mut self) {
+        drop(self.sender.take());
+
+        for worker in self.workers.drain(..) {
+            println!("Shutting down worker {}", worker.id);
+
+            worker.thread.join().unwrap();
+        }
+    }
+}
 

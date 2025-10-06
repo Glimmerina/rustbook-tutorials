@@ -22,13 +22,15 @@ fn main() {
     // I wonder if this helps with DDOS attacks?
     let pool = ThreadPool::new(4);
     // For each incoming connection, handle the connection by calling the handle_connection function.
-    for stream in listener.incoming() {
+    for stream in listener.incoming().take(2) {
         let stream = stream.unwrap();
 
         pool.execute(|| {
             handle_connection(stream);
         });
     }
+
+    println!("Shutting down.");
 }
 
 // A function to handle the connection.

@@ -1,0 +1,7 @@
+# Tell GitHub's linguist to ignore these for language statistics
+
+Makefile linguist-vendored
+*.d linguist-generated
+*.o linguist-generated
+/target linguist-vendored
+/Cargo.lock linguist-generated
